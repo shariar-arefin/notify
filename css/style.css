@@ -1,0 +1,278 @@
+/*
+Name: Ujjal Deb
+Country: Bangladesh
+Email: deb.ujjal.ksa@gmail.com
+*/
+
+/*
+1. Global CSS
+2. Banner section CSS
+3. Why-us section CSS
+4. Notification section CSS
+5. Get-in-touch section CSS
+6. Footer CSS
+7. Media query
+*/
+
+/* Global CSS */
+body{
+	font-family: 'Raleway', sans-serif;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: #848484;
+}
+/* Banner section CSS */
+.banner{
+	background: url(../images/banner-img.png) no-repeat;
+	background-size: cover;
+}
+.banner .top-line{
+	height: 8px;
+	background: #2ecc71;
+}
+.banner .logo{
+	margin: 100px 0 20px;
+}
+.banner p{
+	color: #fff;
+    font-size: 22px;
+    width: 85%;
+}
+.banner ul li{
+	width: 40px;
+	height: 40px;
+	background: #38251b;
+	border-radius: 50%;
+	font-size: 18px;
+	padding: 7px 13px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+.banner ul .li03{
+	padding-left: 10px;
+}
+.banner ul li a{
+	color: #ddccb3;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+.banner ul li:hover{
+	background: #2ecc71;
+}
+.banner ul li a:hover{
+	color: #fff;
+}
+.banner .iphone{
+	margin-top: 85px;
+}
+
+/* Why-us section CSS */
+.why-us{
+	padding: 75px 0;
+}
+.why-us ul li{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background: #2ecc71;
+	margin: auto;
+	padding-top: 8px;
+	font-size: 44px;
+	padding-left: 2px;
+	color: #fff;
+}
+
+/* Notification section CSS*/
+.notification{
+	padding: 75px 0;
+	background: #e3e3e3;
+}
+.notification .btn{
+	padding-left: 30px;
+	padding-right: 30px;
+	background: #2ecc71;
+	color: #fff;
+}
+.notification .btn:hover{
+	background: #1ea256;
+	cursor: pointer;
+}
+.notification .btn,
+.notification .form-control{
+	box-shadow: none;
+}
+
+/* Get-in-touch section CSS */
+.get-in-touch{
+	padding: 75px 0;
+}
+.get-in-touch .p01{
+	font-style: italic;
+	font-size: 20px;
+}
+.get-in-touch h5{
+	margin-bottom: 25px;
+}
+.get-in-touch img{
+	margin-right: 2px;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.get-in-touch img:hover{
+	opacity: 0.5;
+}
+.get-in-touch h4{
+	margin-top: 50px;
+}
+.get-in-touch ul{
+	margin-bottom: 0;
+}
+.get-in-touch ul li{
+	width: 30px;
+	height: 30px;
+	background: #d4d4d4;
+	border-radius: 50%;
+	padding-top: 3px;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+.get-in-touch .li01{
+	padding-left: 2px;
+}
+.get-in-touch .li04{
+	padding-left: 1px;
+}
+.get-in-touch ul li a{
+	color: #fff;
+}
+.get-in-touch ul li:hover{
+	background: #62d995;
+}
+
+/* Footer CSS */
+footer{
+	background: #e3e3e3;
+	padding: 40px 0;
+}
+footer ul{
+	margin-bottom: 0;
+}
+footer ul li a{
+	color: #848484;
+	margin-right: 15px;
+	font-size: 14px;
+}
+footer ul li:last-child a{
+	margin-right: 0;
+}
+footer ul li a:hover{
+	color: #2ecc71;
+	text-decoration: none;
+	position: relative;
+	bottom: 2px;
+}
+
+/* Media Query */
+/* For mobile devices */
+@media screen and (max-width: 767px){
+	p {
+		font-size: 14px;
+	}
+	.banner .logo {
+	    margin: 30px auto 15px;
+	    display: block;
+	}
+	.banner p {
+	    font-size: 20px;
+	    width: 100%;
+	    text-align: center;
+	}
+	.banner ul{
+		width: 50%;
+	    margin: auto;
+	    text-align: center;
+	}
+	.banner .iphone {
+	    margin-top: 20px;
+	}
+	.why-us {
+	    padding: 35px 0;
+	}
+	.why-us .p03 {
+		margin-bottom: 0;
+	}
+	.notification {
+	    padding: 35px 0;
+	}
+	.notification h4,
+	.notification p{
+		text-align: center;
+	}
+	.notification .img-fluid {
+		margin-top: 30px;
+	}
+	.notification .form-control {
+	    font-size: 12px
+	}
+	.notification .btn {
+	    padding-left: 14px;
+	    padding-right: 14px;
+	    font-size: 12px;
+	}
+	.get-in-touch {
+	    padding: 35px 0;
+	}
+	.get-in-touch .p01 {
+	    font-size: 16px;
+	}
+	.get-in-touch h4 {
+	    margin-top: 25px;
+	}
+	footer{
+		padding: 20px 0;
+	}
+}
+
+/* For tablet devices */
+@media (min-width: 768px) and (max-width: 991px){
+	p {
+		font-size: 14px;
+	}
+	.banner .logo {
+	    margin: 50px 0 15px;
+	}
+	.banner p {
+	    font-size: 20px;
+	    width: 100%;
+	}
+	.why-us {
+	    padding: 40px 0;
+	}
+	.why-us h4 {
+		font-size: 20px;
+	}
+	.why-us p {
+		margin-bottom: 0;
+	}
+	.notification {
+	    padding: 40px 0;
+	}
+	.get-in-touch {
+	    padding: 40px 0;
+	}
+	.get-in-touch h4 {
+	    margin-top: 25px;
+	}
+	footer{
+		padding: 25px 0;
+	}
+}
